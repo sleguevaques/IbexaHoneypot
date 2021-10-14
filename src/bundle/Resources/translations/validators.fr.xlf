@@ -4,7 +4,7 @@
         <body>
             <trans-unit id="1">
                 <source>Leave this field empty.</source>
-                <target>Veuillez laisse ce champ vide.</target>
+                <target>Veuillez laisser ce champ vide.</target>
             </trans-unit>
         </body>
     </file>
