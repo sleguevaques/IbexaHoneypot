@@ -1,8 +1,8 @@
 {
   "name": "inforca/ibexa-honeypot-bundle",
-  "description": "description",
+  "description": "Bundle providing Honeypot field for the Form Builder in Ibexa DXP Experience/Commerce (3.X)",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "require": {
     "php": "^7.3",
     "ezsystems/ezplatform-kernel": "^1.0",
