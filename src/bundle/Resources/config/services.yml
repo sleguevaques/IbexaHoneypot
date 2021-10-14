@@ -1,0 +1,15 @@
+services:
+  Inforca\IbexaHoneypot\FormBuilder\Field\Mapper\HoneypotFieldMapper:
+    arguments:
+      $fieldIdentifier: honeypot
+      $formType: 'Inforca\IbexaHoneypot\Form\Type\HoneypotFieldType'
+    tags:
+      - { name: ezplatform.form_builder.field_mapper }
+
+  Inforca\IbexaHoneypotBundle\Validator.empty:
+    class: Inforca\IbexaHoneypotBundle\Validator\Constraints\IsEmptyValidator
+    public: true
+    arguments:
+      - '@request_stack'
+    tags:
+      - { name: validator.constraint_validator, alias: 'honeypot.empty' }

@@ -1,0 +1,6 @@
+ez_platform_form_builder:
+    fields:
+        honeypot:
+            name: 'Honeypot'
+            category: 'Anti-robots'
+            thumbnail: '/bundles/ibexaplatformicons/img/all-icons.svg#content-type'
